@@ -33,9 +33,15 @@
 5.- Se ejecuta el programa por medio de consola o por el Docker para que se proyecte el microservicio
 
 ### Local
+
 ![image](https://github.com/user-attachments/assets/f7c5eb1c-836b-4225-af13-d4427d18b88f)
 
 ### Docker
 
 ![image](https://github.com/user-attachments/assets/2048731c-f64d-4682-9a28-7480063ad45e)
+
+### Contenedor Docker
+
+![image](https://github.com/user-attachments/assets/f2dbc1ff-966c-4370-be66-779ef5760d64)
+
 
