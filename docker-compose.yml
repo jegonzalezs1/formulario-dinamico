@@ -1,0 +1,23 @@
+services:
+  backend:
+    image: navegacion_dinamica
+    build:
+      context: ./NavegacionDinamica
+      dockerfile: Dockerfile
+    ports:
+      - "8085:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DevConnection=Data Source=172.24.72.240,1433;Initial Catalog=navegacion_dinamica;User ID=sa;Password=Abc!1234;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+  
+  sqlserver:
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+      SA_PASSWORD: "Abc!1234"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+      
+networks:
+  app-network:
+    driver: bridge
