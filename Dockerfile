@@ -14,7 +14,7 @@ WORKDIR /src
 COPY ["NavegacionDinamica.csproj", "."]
 RUN dotnet restore "./NavegacionDinamica.csproj"
 COPY . .
-WORKDIR "C:/formulario-dinamico/."
+WORKDIR "/src/."
 RUN dotnet build "./NavegacionDinamica.csproj" -c %BUILD_CONFIGURATION% -o /app/build
 
 FROM build AS publish

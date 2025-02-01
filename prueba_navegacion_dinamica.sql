@@ -1,19 +1,5 @@
 -- Crear la base de datos
 CREATE DATABASE navegacion_dinamica
-ON 
-(
-    NAME = navegacion_dinamica_dat,
-    FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\navegacion_dinamica.mdf',
-    SIZE = 500MB,
-    FILEGROWTH = 30%
-)
-LOG ON 
-(
-    NAME = navegacion_dinamica_log,
-    FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\navegacion_dinamica.ldf',
-    SIZE = 250MB,
-    FILEGROWTH = 15%
-);
 GO
 
 -- Usar la base de datos creada

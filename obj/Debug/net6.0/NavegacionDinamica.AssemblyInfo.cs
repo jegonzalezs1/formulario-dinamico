@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NavegacionDinamica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c55a7a4880ce0f92efd51e7a53481a1a50ebcc5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d27f6fb59300846936a5170b41e9f9a407fc10f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("NavegacionDinamica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NavegacionDinamica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
